@@ -47,7 +47,7 @@ def MWW(arr1, arr2, length = True):
 несмотря на название, считает не мощность, а 1-мощность.
 описание в доковском файле
 '''    
-def power_MWW_mu(effect, mu, pars1, pars2, sbNMF, N, K):
+def power_MWW_mu(effect, mu, pars2, sbNMF, N, K, pars1 = None):
     result = []
     for i in effect:
         count = 0
