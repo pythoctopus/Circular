@@ -8,7 +8,7 @@ mean and concentration, similar to estimated from zero sample, but shifted by sp
 value. This scrypt estimates the probability of II-type error depend on shift size.
 
 ## Usage
-Some comments are written directky in the code. The working class is BetaEstimator.
+Some comments are written directly in the code. The working class is BetaEstimator.
 It's __init__ method takes 8 arguments:
 * arr1 - first numpy array of data (np.ndarray)
 * arr1 - second array (another sample)
