@@ -65,7 +65,7 @@ class BetaEstimator:
             ax[0].tick_params(axis='x', rotation=45)
             ax[0].set_title('Mean')
             ax[1].set_title('Concentration')
-            f.suptitle('{}\n{}'.format(self.sample1.name, self.MWW_p))
+            f.suptitle('{0}\nMWW p-val: {1:.3f}'.format(self.sample1.name, self.MWW_p))
             if savefile:
                 plt.savefig('{}.png'.format(self.sample1.name), dpi=500, bbox_inches='tight')
             plt.show()
