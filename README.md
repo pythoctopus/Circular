@@ -18,7 +18,7 @@ It's __init__ method takes 8 arguments:
 * is_degrees - is data in degrees or radians (by default True)
 * is3d - do you need a 3d or a 2d plot of the estimated probability (by dafault True)
 
-Class attributes:
+**Class attributes**:
 * sample1 & sample2 - CircSample objects, our samples arr1 & arr2
 * effect_mu
 * effect_k
@@ -28,7 +28,7 @@ Class attributes:
 > if __is3d__ is True: result is a np.ndarray of size KxM, K: effect_k size, M: effect_mu size.
 > in another case result is a list of two elements, each of which is a np.ndarray of this kind: [effects(shifts), estimations].
 
-Methods:
+**Methods**:
 * estimate() - performs the estimation. Params: n_estim - a number of generations of random samples, savefile - True or False,
 only used if is3d is True. If savefile is True - saves result in txt file.
 * show() - plot results
@@ -44,4 +44,7 @@ And a few worlds about sample1, sample2 and CircSample class. This class has 6 a
 * rayleigh() - compute rayleigh_p
 * show() - plot this sample (inner circle is a 0.05 significance level for Rayleigh test)
 
-
+### References
+* [NCSS Documentation](https://www.ncss.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Circular_Data_Analysis.pdf)
+* Batschelet, E. (1981). Circular statistics in biology. London: Academic Press.
+* Mardia, K.V. and Jupp, P.E. (2000) Directional Statistics. John Wiley & Sons, London.
