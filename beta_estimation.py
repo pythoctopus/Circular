@@ -97,7 +97,7 @@ class CircSample:
     def rayleigh(self):
         n = self.data.shape[0]
         r = self.mean_vector[1]
-        L = 0.5 * np.exp(-n * r**2)
+        L = np.exp(-n * r**2)
         self.rayleigh_p = L
     
     def show(self):
