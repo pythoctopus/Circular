@@ -47,4 +47,4 @@ And a few worlds about sample1, sample2 and CircSample class. This class has 6 a
 ### References
 * [NCSS Documentation](https://www.ncss.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Circular_Data_Analysis.pdf)
 * Batschelet, E. (1981). Circular statistics in biology. London: Academic Press.
-* Mardia, K.V. and Jupp, P.E. (2000) Directional Statistics. John Wiley & Sons, London.
+* Mardia, K.V. and Jupp, P.E. (2000). Directional Statistics. John Wiley & Sons, London.
